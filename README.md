@@ -161,3 +161,71 @@ println("|                                 |")
 println("|                                 |")
 println("|                                 |")
 println("|\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\|")
+/------------------------------------------------------------------------------------------------------------
+ /*
+    //consdições
+    //
+    //condição simples
+    //
+    // if--> se...
+    // else -->senão 
+    
+   var lembreidochocolate = "roger"
+    
+    if(lembreidochocolate == "roger"){
+       print("vou entregar o chocolate para voce") 
+    }else{
+        println("chocolate pra todo mundo!!")
+    
+    
+    
+    
+     
+    //se a condição for verdadeir, a sua ação será executada, senão, outra ação será
+    //executada
+    
+    
+   var possofazerisso = "sim"
+    
+    if(  possofazerisso == "sim"){ 
+      print("posso pegar isso?)       
+    }else{ 
+        println(" posso fazer aquilo? ")
+   }*/
+  
+            
+    /*{
+ //condições composta
+    
+    var coracoes = 50
+            
+    if(coracoes >= 5){
+      println("você está otimo!! bom pra vc")
+     }else if(coracoes == 4){
+            println("vocé está bem ")
+     }else if(coracoes == 3 ){
+            println("se cuida mais ")
+     }else if(coracoes == 2){
+            println("vish! se cuide se mais!")
+     }else if(coracoes == 1){
+            println("vai logo no medico!!!")
+       }else{
+            println("foi de F, novo reforço do vasco ")
+    }*/  
+    
+    
+   var idade = 18 
+       
+   if(idade <=3)
+      println("vocé é um nene")
+}else if(idade <= 12){
+      println("vocé é muito infantil")
+}else if (idade <=19) 
+      println("tu é jovem! aproveite sua vida")
+}else if(idade <=60){
+      println("tu é adulto!! pegue a conta")
+}else if(idade <=60){
+    println("que que há velinho?")
+}else{
+     println("vocé não existe!!")
+}
