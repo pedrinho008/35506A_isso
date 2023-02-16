@@ -216,7 +216,7 @@ println("|\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\|")
     
    var idade = 18 
        
-   if(idade <=3)
+   if(idade >=0)
       println("vocé é um nene")
 }else if(idade <= 12){
       println("vocé é muito infantil")
