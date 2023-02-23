@@ -229,3 +229,48 @@ println("|\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\|")
 }else{
      println("vocé não existe!!")
 }
+/-----------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+  //operadores logicos
+    //
+    //são usados quando queremos comparar mais de uma coisa mesma condição 
+    //
+    // && -> e
+    // || -> ou (shift + barra invertida)
+    // 
+    // TABELA VERDADE (com E e OU )
+    // 
+    // && - A derteminada ação acontecerá se e somente se todas as consições forem verdadeiras 
+    // 
+    // VV -> VERDADEIRO 
+    // VF -> FALSO 
+    // FV -> FALSO
+    // FF -> FALSO 
+    // 
+    // ||- A derteminada ação será executada se pelo o menos uma das condições forem verdadeira
+    // 
+    // VV -> VERDADEIRO
+    // VF -> VERDADEIRO
+    // FV -> VERDADEIRO
+    // FF -> FALSO
+    // 
+   /*
+    var idade = 13 
+    var AcompanhadoDosPais = false
+    
+    if(idade >= 14 || AcompanhadoDosPais == true ){
+        println("pode entrar, curte ae")
+    }else{
+        println("a entrada não é permitida para você")
+    }
+    */
+    
+    var Pontuação = 3
+    var vitoria = false 
+    
+    if( Pontuação >= 3 && vitoria == false ){ 
+        println("Alemanha perdeu, Brasil passou!!")
+    }else{ 
+        println("Infelizmente o Brasil não passou, a Alemanha ganhou")
+    }
+/-----------------------------------------------------------------------------------------------------------------------------------------
