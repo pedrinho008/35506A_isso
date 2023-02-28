@@ -287,3 +287,32 @@ if(!alemanha && brasil && !marrocos){
    */ 
    
    /------------------------------------------------------------------------------------------------------------------------------------------------
+var resultado = 10
+var n1 = 5  
+var n2 = 2 
+var n3 = 3
+var n4 = 10 
+    
+    
+println("|  Calculadora:                   |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|                                 |")
+println("|             
