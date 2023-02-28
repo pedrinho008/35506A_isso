@@ -274,3 +274,16 @@ println("|\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\|")
         println("Infelizmente o Brasil não passou, a Alemanha ganhou")
     }
 /-----------------------------------------------------------------------------------------------------------------------------------------
+/*   
+val brasil = true
+val alemanha = false
+val marrocos = false
+    
+if(!alemanha && brasil && !marrocos){ 
+    println("Pode isso arnaldo, Brasi classificado!!! rumo ao hexa!") 
+    }else{ 
+        println("é amigos, acabou")
+    }
+   */ 
+   
+   /------------------------------------------------------------------------------------------------------------------------------------------------
