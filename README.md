@@ -316,3 +316,44 @@ println("|                                 |")
 println("|                                 |")
 println("|                                 |")
 println("|             
+/---------------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+
+// When - quando 
+//  
+//
+// quando uma derterminada condição for verdadeir, outra determinada 
+// ação será executada 
+//
+// Estrutura do when
+//
+// When(var){
+// valor -> ação a ser executada
+// outroValor -> ação 
+// maisUm -> ação
+// outro -> ação 
+// else -> ação 
+// }  
+var mes = 2
+    
+    
+when(mes){ 
+   1 -> println("Acapuco - MEX")
+   2 -> println("Paris - FRA")
+   3 -> println("Berlim - ALE")
+   4 -> println("Monaco - MON")
+   5 -> println("Pequim - CHI")
+   6 -> println("Acre - BRA")
+   7 -> println("Roma - ITA")
+   8 -> println("Atenas - GRE")
+   9 -> println("Madri - ESP") 
+   10 -> println("Machester - ING")
+   11 -> println("Dubai - EUA")
+   else -> println("São paulo - BRA")  
+
+     }
+
+
+       }
+       
+ /-------------------------------------------------------------------------------------------------------------------------------------------------
