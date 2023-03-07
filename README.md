@@ -460,3 +460,109 @@ while(ano  > 365)
 ano++ 
     
 }
+/-----------------------------------------------------------------------------------------------------------------
+fun main() {
+
+// When - quando 
+//  
+//
+// quando uma derterminada condição for verdadeir, outra determinada 
+// ação será executada 
+//
+// Estrutura do when
+//
+// When(var){
+// valor -> ação a ser executada
+// outroValor -> ação 
+// maisUm -> ação
+// outro -> ação 
+// else -> ação 
+// }  
+// 
+/*
+var mes = 2
+    
+    
+when(mes){ 
+   1 -> println("Acapuco - MEX")
+   2 -> println("Paris - FRA")
+   3 -> println("Berlim - ALE")
+   4 -> println("Monaco - MON")
+   5 -> println("Pequim - CHI")
+   6 -> println("Acre - BRA")
+   7 -> println("Roma - ITA")
+   8 -> println("Atenas - GRE")
+   9 -> println("Madri - ESP") 
+   10 -> println("Machester - ING")
+   11 -> println("Dubai - EUA")
+   else -> println("São paulo - BRA")  
+
+     }
+     */
+
+    
+    /*
+    
+    var idade = 1
+
+while(idade < 17){
+    println("creça, sério")
+    idade ++ 
+    
+    
+    
+}
+println("divitar-se, você chegou até aqui, você merece")
+
+
+
+}*/
+// Laços de Repetição 
+// 
+// While - enquanto
+// for - para.. 
+// do.. while faça.. enquanto
+// repeat - repita 
+//   
+//   
+
+
+// laço While 
+//  enquanto uma derteminada condição for verdadeira, outra determinada 
+//  Ação será executada 
+//  
+// While(condição){  
+// ação 
+// }
+
+// laço do... While 
+// 
+// uma derteminada ação será executada, enquanto outra derteminada condição for
+// verdadeira
+// 
+// Estrutura do do..White 
+// 
+// do{  
+// ação
+// } While(condição)
+/*
+var idade = 1 
+  
+do{ 
+   println("$idade ano? Creça, serio!!")
+   idade++ 
+}while(idade >17) 
+
+
+*/ 
+
+    
+/*    
+//Exercício:
+
+var ano = 1 
+
+while(ano  > 365)
+ano++ 
+    
+}
