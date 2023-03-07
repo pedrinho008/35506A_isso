@@ -566,3 +566,42 @@ while(ano  > 365)
 ano++ 
     
 }
+/-----------------------------------------------------------------------------------------------------------------
+/*
+for(item in 1..10){      
+    println(item)
+*/
+
+ /*
+ //Exercicios: faça a tabuada de um número de sua escolha ( sem a 0, a do 1,2 e 10)
+ //observação: precisa utlizar o laço  for 
+
+ var lista = mutableListOf<String>("0","4","8","12","16","20","24","28","32","36","40")
+ for(item in lista){ 
+ println(item)
+
+}
+
+ 
+ 
+ 
+ 
+}
+*/
+
+// Repeat - Repita...
+// 
+// Uma derterminada ação será repetida um derterminado número de vezes
+// 
+
+
+var tartaruga = 1
+repeat(10){ 
+    println("tartaruga")    
+    tartaruga++
+    
+}
+
+
+
+}
