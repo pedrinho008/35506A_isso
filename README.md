@@ -605,3 +605,59 @@ repeat(10){
 
 
 }
+/-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+// Colletions - Coleções 
+// 
+//  <>  --> tags - servem para especificar o tipo de valor a ser listado 
+//  
+//  São dertrminados conjuntos de itens/Valores que podem ser modelados e Utilizados
+//  Em derterminados métodos e operações 
+//  
+//  listOf --> Listam itens de variados tipos 
+//  
+   
+ var genericlist = mutableListOf("São paulo, arroz e pamonha" , 25.7, 23.974, '$', false )
+ println (genericlist)
+ 
+ var specificlist = listOf<String>("Cruzeiro do Roberto Carlos", "calleri" , "5")
+ println(specificlist)
+ 
+    
+   // Index - uma posição da colletion
+   
+    
+  //Propriedades - list
+  //
+  // . lastIndex 
+  // . size
+  // . 
+  // 
+  // println(specificlist.lastIndex)
+  // println(specificlist.first())
+  //println(specificList.size)
+  //println(specificList.get(0))
+  //println(specificList.indexOf("cruzeiro do Roberto Carlos ")
+ //
+ 
+   //Métodos - listOf
+/*
+    genericlist.add(2, "easy")
+  println(genericlist)
+  genericlist.remove(23.974)
+  println(genericlist)
+  genericlist.removeAt(3)
+  println(genericlist)
+  genericlist.set(0, "tartaruga")
+  println(genericlist)
+  genericlist.clear()
+   println(genericlist)
+ */
+    
+    var anotherList = setOf("Pedro", "Diniz", "Pelé", "Ronaldinho", "Marília Mendonça", "Diniz")
+println(anotherList)
+
+var animal = mutableMapOf("tartaruga" to 0, "jabuti" to 1, "tucano" to 2, "Hiena" to 3, "mamaco" to 4)
+  println(animal )      
+ 
