@@ -652,8 +652,60 @@ repeat(10){
   genericlist.set(0, "tartaruga")
   println(genericlist)
   genericlist.clear()
+   
    println(genericlist)
  */
+ 
+ /------------------------------------------------------------------------------------------------
+ 
+ /*    
+var time1 = timeTitular ("Neymar JR", 11 , "PE" )
+var time2 = timeTitular ("cristiano",   7 ,"CA" )
+var time3 = timeTitular("messi", 10 , "PD" )
+var time4 = timeTitular( "ronaldinho",  8 ,"ME")
+var time5 = timeTitular("zidane", 9  ,"MEI")
+var time6 = timeTitular("rivaldo", 7  ,"MD"  )
+var time7 = timeTitular("casemiro", 6 ," VOl"  )
+var time8 = timeTitular("militao",  4 ,"ZC")
+var time9 = timeTitular("marquinhos", 3 ,"ZC" )
+var time10 = timeTitular("thiago silva", 2 ,"ZC" )
+var time11 = timeTitular("dida",  1 , "GOl")
+    
+    println(time1.nome + "   -   " + time1.numero+"   -  "+time1.posicao)
+     println(time2.nome + "   -   " + time2.numero+"   -  "+time2.posicao)
+     println(time3.nome + "   -   " + time3.numero+"   -  "+time3.posicao)
+     println(time4.nome + "   -   " + time4.numero+"   -  "+time4.posicao)
+     println(time5.nome + "   -   " + time5.numero+"   -  "+time5.posicao)
+     println(time6.nome + "   -   " + time6.numero+"   -  "+time6.posicao)
+     println(time7.nome + "   -   " + time7.numero+"   -  "+time7.posicao)
+     println(time8.nome + "   -   " + time8.numero+"   -  "+time8.posicao)
+     println(time9.nome + "   -   " + time9.numero+"   -  "+time9.posicao)
+     println(time10.nome + "   -   " + time10.numero+"   -  "+time10.posicao)
+     println(time11.nome + "   -   " + time11.numero+"   -  "+time11.posicao)
+*/
+ }   
+    class timeTitular (var nome: String,
+                        var numero: Int,
+                        var posicao: String){
+
+   
+   
+   
+
+  //metodos/Funcões - são um grupo de ações que representam uma derterminada atividade de um
+  //determinado objeto
+  //
+  // Estrutura de um método no kotlin 
+  // 
+  // fun nomeDela (parametros - se tiver ) {  
+  // Ações
+  // }
+  // 
+  // 
+  // var nomeDoObjeto = ClasseDele()
+  // 
+  // nomeDoObjeto.nomeDela()
+    
     
     var anotherList = setOf("Pedro", "Diniz", "Pelé", "Ronaldinho", "Marília Mendonça", "Diniz")
 println(anotherList)
